@@ -5,7 +5,7 @@
 		module.exports = factory(require("graphjs/constructWithArgs"), require("entity-context/Context"));
 	else
 		root.Graph = factory(root.constructWithArgs);
-}(function (Graph, Context) {
+}(this, function (Graph, Context) {
 	var UniqueGraph = Object.create(Graph);
 
 	UniqueGraph.parseOther = function (Type, rawData) {
