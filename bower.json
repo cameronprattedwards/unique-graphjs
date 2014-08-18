@@ -1,0 +1,27 @@
+{
+  "name": "unique-graphjs",
+  "version": "0.0.0",
+  "homepage": "https://github.com/cameronprattedwards/unique-graphjs",
+  "authors": [
+    "Cameron Edwards <cameronprattedwards@gmail.com>"
+  ],
+  "description": "A GraphJS extension that maintains the uniqueness of entities in your graph",
+  "main": "Graph.js",
+  "keywords": [
+    "graph",
+    "extension",
+    "uniqueness",
+    "identity"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "graphjs": "*"
+  }
+}
